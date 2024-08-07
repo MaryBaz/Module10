@@ -9,7 +9,7 @@
         public double Sum(double a, double b)
         {
             Console.WriteLine($"Результат = {a + b}");
-            return (a + b);
+            return a + b;
         }
     }
     public class Keyboard

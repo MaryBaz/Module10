@@ -41,7 +41,7 @@
         public double Sum(double a, double b, int precision)
         {
             logger.Event($"Результат = {Math.Round(a + b, precision)}");
-            return (a + b);
+            return a + b;
         }
     }
     public class Keyboard
